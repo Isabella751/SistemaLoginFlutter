@@ -14,7 +14,7 @@ class ApiService {
   static Future<Map<String, dynamic>> login({
     required String email,
     required String senha,
-  }) async {
+  }) async { 
     try {
       final url = Uri.parse('$baseUrl/login');
 
